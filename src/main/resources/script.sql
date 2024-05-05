@@ -57,7 +57,7 @@ create table tb_order_details
 );
 
 insert into tb_order_details (order_details_id, order_id, book_name, quantity, price) values (1, 1, "简爱", 1 ,20);
-insert into tb_order_details (order_details_id, order_id, book_name, quantity, price) values (1, 1, "追风筝的人", 1 ,20);
+insert into tb_order_details (order_details_id, order_id, book_name, quantity, price) values (2, 1, "追风筝的人", 1 ,20);
 
 create table tb_user
 (
